@@ -1,0 +1,36 @@
+# Python-generated files
+build/
+dist/
+wheels/
+*.egg-info
+
+# Entornos virtuales
+venv/
+.venv
+.venv/
+.uv/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*.py[oc]
+*$py.class
+
+# Archivos de configuración de PyCharm
+.idea/
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+
+# Archivos de dependencias generados
+poetry.lock
+Pipfile.lock
+uv.lock
