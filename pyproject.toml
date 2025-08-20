@@ -1,7 +1,17 @@
 [project]
 name = "modulo-2"
 version = "0.1.0"
-description = "Add your description here"
+description = "Ejemplos de Codigo del Módulo 2 del Curso de Python"
+authors = [
+    { name = "Diego Ojeda", email = "daom89@gmail.com" }
+]
 readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "rich>=14.1.0",
+]
+[project.urls]
+homepage = "https://github.com/DaomPythonProjects/Modulo_2"
+repository = "https://github.com/DaomPythonProjects/Modulo_2"
+documentation = "https://github.com/DaomPythonProjects/Modulo_2/wiki"
